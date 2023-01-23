@@ -3,8 +3,21 @@ import os
 
 
 def convert_tts(sentence:str, number:int) -> str:
-    '''Converts a sentence into an audio file. \n
-        Returns the path of the audio file'''
+    '''Converts a sentence into an audio file.
+    
+    Parameters
+    ----------
+    sentence : str
+        Sentence to be converted to audio.
+        
+    number : int
+        Number to be added to the end of the file name.
+        
+    Returns
+    -------
+    str
+        Path to the audio file.
+    '''
     
     # Initialize TTS engine
     engine = pyttsx3.init()

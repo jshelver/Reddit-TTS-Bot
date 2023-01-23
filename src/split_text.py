@@ -10,7 +10,17 @@ digits = "([0-9])"
 
 def split_into_sentences(text:str) -> list[str]:
     """Splits one long string into a list of sentences. \n
-        Returns the sentence list"""
+        
+        Parameters
+        ----------
+        text : str
+            String to be split into sentences.
+            
+        Returns
+        -------
+        list[str]
+            List of sentences
+        """
     
     text = " " + text + "  "
     text = text.replace("\n"," ")
