@@ -1,0 +1,5 @@
+background_clips/
+__pycache__/
+split_audio/
+final_video/
+*.env
