@@ -26,7 +26,7 @@ def scrape_data(subreddit_name:str) -> tuple[str, str]:
     reddit = praw.Reddit(
         client_id = CLIENT_ID,
         client_secret = CLIENT_SECRET,
-        user_agent = USER_AGENT
+        user_agent = "TTS-Bot"
     )
 
     # Get subreddit
