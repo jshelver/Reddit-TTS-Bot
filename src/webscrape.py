@@ -20,7 +20,6 @@ def scrape_data(subreddit_name:str) -> tuple[str, str]:
     load_dotenv()
     CLIENT_ID = os.getenv("CLIENT_ID")
     CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-    USER_AGENT = os.getenv("USER_AGENT")
     
     # Instantiate praw
     reddit = praw.Reddit(
